@@ -27,7 +27,7 @@ contract HelloWorld {
     - npm install -g truffle
   truffle CLI 指令：
     - truffle init // 建立專案
-    - truffle create contract HelloWorld // 建立這份新合約
+    - truffle create contract [HelloWorld] // 建立新合約
     - truffle version // 查詢 truffle 與 solidity 版本
     - truffle compile // 將 solidity 原始碼編譯成Ethereum bytecode, may need to add sudo permissions
         - [why need to add sudo permissions] (https://ethereum.stackexchange.com/questions/115377/error-with-truffle-compile-could-not-find-a-compiler-version-matching)
@@ -40,5 +40,6 @@ contract HelloWorld {
         'Hello World'
         > contract.echo.call("I love U")
         'I love U'
->
+
+  note: Solidity 中定義好型別後，並不能隨時更改之後要儲存的型別
  */

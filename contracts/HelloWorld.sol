@@ -21,6 +21,7 @@ contract HelloWorld {
     - npm install -g truffle ganache-cli
     - ganache-cli  命令來啟動乙太坊測試環境
       - truffle-config.js 裡的 network port 號要填對，連接成功後在 truffle migrate 就可以看到對應
+      - ganache-cli --seed [apple] [banana] [cherry] 重新啟動ganache-cli時可以產生一樣的帳戶(accounts)和私鑰(private key)
       - https://trufflesuite.com/tutorial/
       - 
     - npm uninstall -g truffle // 要先反安裝

@@ -1,0 +1,7 @@
+{  
+  "name": "hello_my_first_smart_contract",
+  "version": "1.0.0",
+  "dependencies": {
+    "zeppelin-solidity": "^1.12.0"
+  }
+}

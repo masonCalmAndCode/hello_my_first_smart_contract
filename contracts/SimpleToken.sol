@@ -46,7 +46,7 @@ contract SimpleToken {
         '0xE55E19e2D49B04164D603F413D76B8a0EBf818c1'
       ]
     - 隨便帶一個用戶測試
-      contract.balanceOf.call('0x7E541461B5ec6086B449B368D1cDa26cE891e043')s
+      contract.balanceOf.call('0x7E541461B5ec6086B449B368D1cDa26cE891e043')
       BN {
         negative: 0,
         words: [ 10000, <1 empty item> ],
